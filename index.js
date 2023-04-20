@@ -15,3 +15,14 @@ is amazing`;
 console.log(b)
 var n=100;
 console.log(`half of ${n} is ${n/2}`)
+//we can reintialize the variable but cant declare it 
+//loops in java script
+var Num=10;
+for(var i=0;i<=Num;i++){
+    if(i%2==0){
+        console.log(i)
+    }
+}
+const c=4;// Identifier 'a' has already been declared
+//na hi redeclare na hi reintialize
+c=5;
